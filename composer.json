@@ -1,0 +1,24 @@
+{
+  "name": "dshepherd/bitstream-iterator",
+  "description": "A class for iterating through a stream of bits",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "iterator", "bitstream"
+  ],
+  "homepage": "https://github.com/dshepherd/bitstream-iterator",
+  "authors": [
+    {
+      "name": "Dan Shepherd",
+      "email": "dan@yayfor.me.uk"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "DShepherd\\BitStreamIterator\\": "src"
+    }
+  }
+}
